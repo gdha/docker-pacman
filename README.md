@@ -9,7 +9,7 @@ Be careful, this is a x86_64 application (will not work on arm64).
 3. In that folder, create a file called `Dockerfile`, paste in the following code.
 
   ````
-  FROM ubuntu:18.04
+  FROM ubuntu:26.04
   ENV USER=root
   ENV PASSWORD=password1
   ENV DEBIAN_FRONTEND=noninteractive 
